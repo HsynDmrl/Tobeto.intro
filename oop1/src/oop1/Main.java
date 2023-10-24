@@ -13,14 +13,14 @@ public class Main {
 		//GETTING Value
 		System.out.println(product1.getName());
 		
-		Product product2 = new Product("SMEG Kahve", 4500, 9, "bilmemne.jpgd", 4);
+		Product product2 = new Product("SMEG Kahve", 4500, 9, "bilmemne.jpg", 4);
 		System.out.println(product2.getName());
 		
 		Product[] products = {product1, product2};
 		
 		System.out.println("<ul>");
 		for (Product product : products) {
-			System.out.println("<li>" + product.getName() + "/li");
+			System.out.println("<li>" + product.getName() + "</li>");
 		}
 		System.out.println("</ul>");
 		// individual customer class ici bos olmasina ragmen Customer classindan 
